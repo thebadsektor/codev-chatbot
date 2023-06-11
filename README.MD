@@ -4,7 +4,7 @@ Hi! I'm **Gerald Villaran** and I made this LLM App as requirement for my **CoDe
 **Live Demo:** ```https://thebadsektor-codev-chatbot-app-hg42s2.streamlit.app/```
 
 **Installation:**
- 1. Clone repository
+ 1. Clone repository: ```git clone https://github.com/thebadsektor/codev-chatbot.git```
  2. Install dependencies using: ```pip install -r requirements.txt```
 
 **Section 5: Programming Task**
