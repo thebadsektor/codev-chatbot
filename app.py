@@ -8,12 +8,6 @@ from streamlit_chat import message
 # api_key = os.environ.get("OPENAI_API_KEY")
 api_key = os.environ.get(st.secrets["OPENAI_API_KEY"])
 
-if api_key:
-    print("OpenAI API key is good.")
-else:
-    # API key is not set
-    print("OpenAI API key is not provided as an environment variable.")
-
 # API key is set as an environment variable
 df = pd.read_csv('data/knowledge-base.csv')
 # print(df[0:10])
