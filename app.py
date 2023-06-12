@@ -27,15 +27,15 @@ def respond():
     output = csv_agent.run(question)
     print(output)
 
-# # Initialise session state variables
-# if 'generated' not in st.session_state:
-#     st.session_state['generated'] = []
-# if 'past' not in st.session_state:
-#     st.session_state['past'] = []
-# if 'messages' not in st.session_state:
-#     st.session_state['messages'] = [
-#         {"role": "system", "content": "You are a helpful assistant."}
-#     ]
+# Initialise session state variables
+if 'generated' not in st.session_state:
+    st.session_state['generated'] = []
+if 'past' not in st.session_state:
+    st.session_state['past'] = []
+if 'messages' not in st.session_state:
+    st.session_state['messages'] = [
+        {"role": "system", "content": "You are a helpful assistant."}
+    ]
 
 # Setting page title and header
 st.set_page_config(page_title="AVA", page_icon=":robot_face:")
