@@ -1,5 +1,4 @@
-# Codev - Chatbot
-Hi! I'm **Gerald Villaran** and I made this LLM App as requirement for my **CoDev** application for the Senior ML App Engineer position.
+# Your - Chatbot
 
 **Live Demo:** ```https://thebadsektor-codev-chatbot-app-hg42s2.streamlit.app/```
 
