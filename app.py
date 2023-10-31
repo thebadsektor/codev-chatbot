@@ -143,7 +143,7 @@ if 'messages' not in st.session_state:
 # Setting page title and header
 st.set_page_config(page_title="", page_icon=":robot_face:")
 st.markdown(
-    "<h1 style='text-align: center;'>CoDev Chatbot</h1>"
+    "<h1 style='text-align: center;'>Your Chatbot</h1>"
     + "<p style='text-align: center;'>Role: University Assistant</p>", 
     unsafe_allow_html=True)
 
